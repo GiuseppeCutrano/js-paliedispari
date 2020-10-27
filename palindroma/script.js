@@ -3,7 +3,7 @@
 var parolaUtente = prompt('Inserisci una parola');
 console.log(parolaUtente);
 //utilizzare la funzione per sapere se la parola inserita è palindroma
-function palindroma (word) {
+function stringReverse(word){
     var lettereParola = word.split("");
     console.log(lettereParola);
 
@@ -15,7 +15,7 @@ function palindroma (word) {
     return parolaInversa;
 }
 
-var palindroma = palindroma(parolaUtente);
+var palindroma = stringReverse(parolaUtente);
 console.log(palindroma);
 
 // stampare un messaggio appropriato
